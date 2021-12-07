@@ -11,11 +11,15 @@ const App = () => {
 
 	const removePeople = () => {
 		setPeople([]);
-		remove();
+		if (people.length === data.length) {
+			remove();
+		}
 	}
 	const restorePeople = () => {
 		setPeople(data);
-		restore();
+		if (people.length !== data.length) {
+			restore();
+		}
 	}
 
 	return(
