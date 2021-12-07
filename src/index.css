@@ -202,7 +202,7 @@ main {
     width: 100%;
     border-color: transparent;
     background: var(--clr-pink);
-    margin: 2rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     text-transform: capitalize;
     font-size: 1.2rem;
     padding: 0.5rem 0;

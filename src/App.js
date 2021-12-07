@@ -10,6 +10,7 @@ const App = () => {
 				<h3>{people.length} birthday reminded!</h3>
 				<List people={people} />
 				<button onClick={() => setPeople([])}>clear all!</button>
+				<button onClick={() => setPeople(data)}>restore all!</button>
 			</section>
 		</main>
 	);
